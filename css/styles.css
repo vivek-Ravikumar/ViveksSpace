@@ -187,11 +187,16 @@ header {
     right: 1em;
     top: 1em;
     z-index: 1000;
+    
 }
 
 .nav-open .nav{
   
-    transform: translateX(0);
+    /* transform: translateX(0); */
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+
 }
 
 .nav-open .nav-toggle {
