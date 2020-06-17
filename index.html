@@ -6,15 +6,18 @@
         <title>Vivek's Space</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        <link rel="stylesheet" href="./css/styles.css">
+        
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="" alt="">
-            </div>
+           
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -80,34 +83,64 @@
         </section>
         
         <!-- My Work -->
-        <section class="my-work" id="work">
+<section class="my-work" id="work">
             <h2 class="section__title">My Tech work</h2>
+            <br/>
             <p class="section__subtitle"></p>
-            
             <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="https://koevb.csb.app/" class="portfolio__item">
-                    <img src="img/portfolio1.jpg" alt="contactKeeper" class="portfolio__img">
-                </a>
                 
-                <!-- Portfolio item 02 -->
-                <a href="https://mdwxj.csb.app/" class="portfolio__item">
-                    <img src="img/portfolio2.jpg" alt="LibraryApp" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="https://ws1w2.sse.codesandbox.io/" target="default" class="portfolio__item">
-                    <img src="img/portfolio3.jpg" alt="CoronaApp" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio4.jpg" alt="" class="portfolio__img">
-                </a>                
-            
+                <div class=" portfolio__item" style="width:400px">
+                    <a href="https://koevb.csb.app/"  target="default" class="portfolio__item">
+                        <img src="img/portfolio5.jpg" alt="contactKeeper" class="portfolio__img">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title"> Travellers space - MERN Stack </h4>
+                      <p class="card-text"> A Bus Booking site mimic. Looks cool with the icons and responsive design and icons. Built with JWT authentication,Bcrypt Password Hashing and still more fun stuff </p>
+                      <a href="https://25o83.csb.app/home" target="default" class="btn btn-primary">Visit App</a>
+                    </div>
+                </div>
+                <div class="portfolio__item" style="width:400px">
+                    <a href="https://koevb.csb.app/login" target="default" class="portfolio__item">
+                        <img src="img/portfolio1.jpg" alt="contactKeeper" class="portfolio__img">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title">Contact Keeper - MERN Stack </h4>
+                      <p class="card-text"> An App to add/edit and manage your contacts. Built with JWT authentication,Bcrypt Password Hashing and still more fun stuff </p>
+                      <a href="https://koevb.csb.app/login"  target="default" class="btn btn-primary">Vistit App</a>
+                    </div>
+                </div>
+
+                <div class=" portfolio__item" style="width:400px">
+                    <a href="https://koevb.csb.app/"  target="default" class="portfolio__item">
+                        <img src="img/portfolio2.jpg" alt="contactKeeper" class="portfolio__img">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title"> Library App- MERN Stack </h4>
+                      <p class="card-text"> A E-commerce mimic app.You can register yourself and borrow books.You need to return them(lol) from your profile page, once you are done, only then others will be able to read. Built with JWT authentication,Bcrypt Password Hashing and still more fun stuff </p>
+                      <a href="#"  target="default" class="btn btn-primary">Visit App</a>
+                    </div>
+                </div>
+                <div class=" portfolio__item" style="width:400px">
+                    <a href="https://ws1w2.sse.codesandbox.io/"  target="default" class="portfolio__item">
+                        <img src="img/portfolio3.jpg" alt="contactKeeper" class="portfolio__img">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title"> Corona Dashboard - Express webApp </h4>
+                      <p class="card-text"> An express app to check the corona affected/recoverd counts across india. No fancy front end works used. Express server static files and fetches live data from 3rd part API. Yes! some bootsratp used for styling </p>
+                      <a href="https://ws1w2.sse.codesandbox.io/"  target="default"  class="btn btn-primary">Visit App</a>
+                    </div>
+                </div>
+
               
+                             
+              
+
             </div>
-        </section>
+
+             
+
+         
+</section>
         
         
         <!-- Footer -->
